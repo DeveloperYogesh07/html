@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YUCompany</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="style.css">
+      <script src="javascript.js"></script>
+      
+  </head>
+  <body>
+    <!-- Navbar start-->
+    <nav class="navbar navbar-expand-lg bg-secondary" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><b><i>YUCompany</i></b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Action
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/login">Login</a></li>
+                <li><a class="dropdown-item" href="/singup">Signin</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">contact</a></li>
+              </ul>
+
+
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search"
+                placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar END -->
+
+      <div class="container-fluid my-3">
+        <div class="row">
+           <!--side navigation start-->
+          <div class="col-md-2 "style="background-color: rgb(98, 139, 169); > 
+             <body bgcolor="#E6E6FA">
+              <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+            
+            <!-- Use any element to open the sidenav -->
+            <span onclick="openNav()"><img src="\images\Hamburger_Menu_Filled-512.webp" width="40px" style="padding-top: 20px; padding-left: 5px;"></span>
+            
+            <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+            <div id="main">
+            </div>
+            
+        
+         </div>
+          <!--side navigation ends-->
+
+          <!-- carousel start -->
+          <div class="col-10 ">  <div id="carouselExampleDark" class="carousel carousel slide"
+            data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="\images\marvin-meyer-SYTO3xs06fU-unsplash.jpg" class="d-block"alt="..."
+                  height="500" width="100%">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="\images\craig-garner-YoadQb46v6k-unsplash.jpg" class="d-block"
+                  alt="..." height="500" width="100%">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="\images\goran-ivos-iacpoKgpBAM-unsplash.jpg" class="d-block"
+                  alt="..." height="500" width="100%">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button"
+              data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button"
+              data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div></div>
+            <!-- carousel End -->
+        </div>
+      </div>
+      
+    
+</div> 
+      <!--cards starts-->
+     <div class="container-fluid">
+       <div class="row">
+        <div class="col-4">
+          <div class="container-fluid my-3 mx-0">
+           <div class="row ">
+           <div class="card col-md-5"  style="background-color:rgb(130, 144, 144); width: 400px;">
+            <div class="col-md-3" >
+                 <img src="\images\1271797.jpg"
+                   class="img-fluid rounded-circle" alt="ryAN">
+               </div>
+               <div class="col-md-10">
+                 <div class="card-body">
+                   <h5 class="card-title">Yogesh upadhyay</h5>
+                   <p class="card-text">A Full stack developer. Lives in india </p>
+                   <div class="profile-pils">
+                     <span class="pils"><a
+                         href="https://twitter.com/YogeshU23149131"
+                         class="text-decoration-none" target="_blank"><i class="fa
+                           fa-twitter"></i> Twitter</a></span>
+                     <span class="pils"><a href="https://codepen.io/yogiupadhyay07"
+                         class="text-decoration-none" target="_blank"><i class="fa
+                           fa-codepen"></i> Codepen</a></span>
+                     <span class="pils"><a
+                         href="https://www.linkedin.com/in/yogesh-upadhyay-17a4061b9"
+                         class="text-decoration-none" target="_blank"><i class="fa
+                           fa-linkedin"></i> Linkedin</a></span>
+                   </div>
+                   <p class="card-text"><small class="text-muted">Last updated 2
+                       mins ago</small></p>
+                 </div>
+               </div>
+               
+             </div>
+           
+           </div>
+         </div>
+        </div>
+        <div class="col-4">
+          <div class="container-fluid my-3 mx-0">
+           <div class="row">
+           <div class="card col-md-5"  style="background-color:rgb(130, 144, 144);width: 400px;">
+            <div class="col-md-3" >
+                 <img src="\images\ryan-reynolds android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-nbqoq-1920x1080.jpg"
+                   class="img-fluid rounded-circle" alt="ryAN">
+               </div>
+               <div class="col-md-10">
+                 <div class="card-body">
+                   <h5 class="card-title">Gajendra jajra</h5>
+                   <p class="card-text">Data analyst. Lives in india </p>
+                   <div class="profile-pils">
+                     <span class="pils"><a
+                         href="https://twitter.com/YogeshU23149131"
+                         class="text-decoration-none" target="_blank"><i class="fa
+                           fa-twitter"></i> Twitter</a></span>
+                     <span class="pils"><a href="https://codepen.io/yogiupadhyay07"
+                         class="text-decoration-none" target="_blank"><i class="fa
+                           fa-codepen"></i> Codepen</a></span>
+                     <span class="pils"><a
+                         href="https://www.linkedin.com/in/yogesh-upadhyay-17a4061b9"
+                         class="text-decoration-none" target="_blank"><i class="fa
+                           fa-linkedin"></i> Linkedin</a></span>
+                   </div>
+                   <p class="card-text"><small class="text-muted">Last updated 2
+                       mins ago</small></p>
+                 </div>
+               </div>
+               
+             </div>
+           
+           </div>
+         </div></div>
+        <div class="col-4">
+          <div class="container-fluid my-3 mx-0">
+           <div class="row">
+           <div class="card col-md-5"  style="background-color:rgb(130, 144, 144);width: 400px;">
+            <div class="col-md-3" >
+                 <img src="\images\1271797.jpg"
+                   class="img-fluid rounded-circle" alt="ryAN">
+               </div>
+               <div class="col-md-10">
+                 <div class="card-body">
+                   <h5 class="card-title">Manish joshi</h5>
+                   <p class="card-text">A Full stack developer. Lives in india </p>
+                   <div class="profile-pils">
+                     <span class="pils"><a
+                         href="https://twitter.com/YogeshU23149131"
+                         class="text-decoration-none" target="_blank"><i class="fa
+                           fa-twitter"></i> Twitter</a></span>
+                     <span class="pils"><a href="https://codepen.io/yogiupadhyay07"
+                         class="text-decoration-none" target="_blank"><i class="fa
+                           fa-codepen"></i> Codepen</a></span>
+                     <span class="pils"><a
+                         href="https://www.linkedin.com/in/yogesh-upadhyay-17a4061b9"
+                         class="text-decoration-none" target="_blank"><i class="fa
+                           fa-linkedin"></i> Linkedin</a></span>
+                   </div>
+                   <p class="card-text"><small class="text-muted">Last updated 2
+                       mins ago</small></p>
+                 </div>
+               </div>
+               
+             </div>
+           
+           </div>
+         </div></div>
+       </div>
+      </div>
+      <!-- cards end -->
+    </div>
+    </div>
+
+  <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 " style="background-color: black; color: white;">© 2020 Copyright:
+    <a href="#"> YUCompany.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+      <!-- run time script load in body -->
+      <script
+     
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+      <!-- scritps section ends -->
+    </body>
+  </html>
